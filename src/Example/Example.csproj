@@ -8,8 +8,4 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
   </ItemGroup>
 
-  <Target Name="PrintPackagesAndParents" DependsOnTargets="ResolvePackageDependenciesForBuild">
-  <Message Importance="high" Text="* %(PackageDependencies.Identity) referenced by:%0a^---@(PackageDependencies->'%(ParentPackage) - target %(ParentTarget)', '%0a^---')" />
-</Target>
-
 </Project>
