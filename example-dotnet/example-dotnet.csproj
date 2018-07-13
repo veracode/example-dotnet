@@ -9,10 +9,15 @@
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.11" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+<<<<<<< HEAD
     <PackageReference Include="GSF.Security" Version="2.1.326-beta" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\example-dotnet-utils\example-dotnet-utils.fsproj" />
   </ItemGroup>
+=======
+  </ItemGroup>
+
+>>>>>>> 08920f3... Change to multi-project solution.
 </Project>
