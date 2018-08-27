@@ -9,6 +9,7 @@
   <ItemGroup>
     <PackageReference Include="MySql.Data" Version="8.0.11" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="GSF.Security" Version="2.1.326-beta" />
   </ItemGroup>
 
   <ItemGroup>
