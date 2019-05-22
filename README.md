@@ -9,7 +9,7 @@ An example dotnet project to demonstrate [srcclr](https://www.srcclr.com) scans.
 ```
 choco install srcclr
 srcclr activate
-SRCCLR_DOTNET=true srcclr scan --url https://github.com/srcclr/example-dotnet
+srcclr scan --url https://github.com/srcclr/example-dotnet
 ```
 
 ### OSX
@@ -17,5 +17,5 @@ SRCCLR_DOTNET=true srcclr scan --url https://github.com/srcclr/example-dotnet
 brew tap srcclr/srcclr
 brew install srcclr
 srcclr activate
-SRCCLR_DOTNET=true srcclr scan --url https://github.com/srcclr/example-dotnet
+srcclr scan --url https://github.com/srcclr/example-dotnet
 ```
