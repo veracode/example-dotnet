@@ -13,7 +13,7 @@
     <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
     <PackageReference Include="GSF.Security" Version="2.1.326-beta" />
     <PackageReference Include="recurly-api-client" Version="1.8.0" />
-    <PackageReference Include="SharpCompress" Version="0.17.1" />
+    <PackageReference Include="SharpCompress" Version="0.29.0" />
     <PackageReference Include="SharpZipLib" Version="1.0.0-alpha1" />
     <PackageReference Include="System.Runtime.Extensions" Version="4.3.0" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
