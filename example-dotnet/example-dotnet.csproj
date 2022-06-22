@@ -10,7 +10,7 @@
     <PackageReference Include="BCrypt.Net-Core" Version="1.2.0-CI00005" />
     <PackageReference Include="DotNetZip" Version="1.10.0" />
     <PackageReference Include="MySql.Data" Version="8.0.11" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="GSF.Security" Version="2.1.326-beta" />
     <PackageReference Include="recurly-api-client" Version="1.8.0" />
     <PackageReference Include="SharpCompress" Version="0.17.1" />
