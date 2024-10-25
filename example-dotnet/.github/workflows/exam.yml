@@ -1,0 +1,24 @@
+name: example-dotnet
+run-name: example-dotnet app 
+on: 
+    push:
+        branches:
+              - main
+    workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: window-latest
+        steps:
+            - name: checkout step 
+              uses: actions/checkout@v4
+            - name: Set up donet 
+              uses: actions/setup-dotnet@v4
+              with:
+                node-version: "2.1.x"
+            - name: Install Dependencies
+              run: |
+                dotnet restore
+            - name: build step 
+              run: |
+                dotnet-build --configuration debug --output ./resources/dotnet-ouptput
